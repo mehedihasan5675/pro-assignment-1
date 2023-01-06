@@ -87,12 +87,49 @@ padding:200px 0;
 
 
 /* ========================
-        
+         Failures part start
 ===============================*/
+#failures_part{
+    padding:80px 0;
+}
+.failures_items{
+    display: flex;
+    justify-content:space-around;
+}
+.failures_items .failures_images{
+    width:570px;
+    height: 730px;
+}
+.failures_items .failures_images img{
+    width:100%
+}
+.failures_details{
+    margin-top: 230px;
+    width:415px;
+    font-family: 'Work Sans', sans-serif;
+}
+.failures_details h2{
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}.failures_details p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.check_images{
+    width:20px;
+    height: 20px;
+    display: inline-block;
+}
+.check_images img{
+    width:100%
+}
 
 
 /* ========================
-        
+         Failures part end
 ===============================*/
 
 
