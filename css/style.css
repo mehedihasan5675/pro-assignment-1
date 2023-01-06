@@ -1,0 +1,158 @@
+/* ========================
+        common css start
+===============================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600;700;800&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+/* ========================
+        common css end
+===============================*/
+
+
+
+
+
+
+
+
+
+/* ========================
+        Banner part start
+===============================*/
+
+#header_part{
+background-image: url('../images/banner/banner1.png');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:center;
+padding:200px 0;
+}
+
+
+.banner_details{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}
+.banner_doc{
+    width:500px;
+    font-family: 'Work Sans', sans-serif;
+}
+.banner_doc h1{
+    font-size: 65px;
+    font-weight: 700;
+    color:#151414
+}
+.banner_doc p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight:400;
+    padding:40px 0 60px 0;
+}
+.banner_btn a{
+    color:white;
+    padding:20px 25px;
+    background-color: #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* ========================
+        Banner part end
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+        
+===============================*/
+
+
+/* ========================
+        
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+        
+===============================*/
+
+
+/* ========================
+        
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+        
+===============================*/
+
+
+/* ========================
+        
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+        
+===============================*/
+
+
+/* ========================
+        
+===============================*/
