@@ -272,12 +272,103 @@ padding:200px 0;
 
 
 /* ========================
-        
+      Our inspiration part start  
 ===============================*/
+#inspiration_part{
+    padding:40px 0 120px 0;
+}
+.inspiration_details h2{
+        text-align: center;
+        font-family: 'Work Sans', sans-serif;
+        padding:40px 0 120px 0;
+        font-size: 40px;
+        font-weight: 700;
+  
 
+}
+.inspiration_items{
+    width:32%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 8px
+   }
+.overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to top,rgba(0, 0, 0, 0.704),rgba(0, 0, 0, 0.0))
+    
+}
+.inspiration_items img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    
+}
+.inspiration_items:hover img{
+transform:scale(1.2);
+}
 
+.inspiration_doc{
+    font-family: 'Work Sans', sans-serif;
+    position: absolute;
+    bottom:20px;
+    color:#ffffff;
+    left: 40px;
+    z-index: 1;
+} 
+.inspiration_doc h3{
+    font-size: 30px;
+    padding:15px 0;
+}
+
+.overlay2{
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    top:510px;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: #fa4529;
+    z-index: 2;
+    transition: 0.9s;
+}
+.inspiration_items:hover .overlay2{
+top:0;
+}
+.overlay2 p{
+    margin: 20px 0 0 20px;
+}.overlay2 h3{
+    margin: 20px 0 0 20px;
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.overlay2 a{
+    font-size: 20px;
+    font-weight: 700;
+    color:#ffffff;
+    margin:310px 0 0 30px;
+     display: inline-block;
+     padding:10px 15px;
+     border-radius: 3px;
+     transition: 0.9s;
+}
+.overlay2 a:hover{
+    background-color: #151414;
+    
+}
+
+.inspiration_parents{
+    display: flex;
+    justify-content: space-between;
+}
 /* ========================
-        
+       Our inspiration part start 
 ===============================*/
 
 
