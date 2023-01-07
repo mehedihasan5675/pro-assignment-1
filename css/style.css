@@ -230,7 +230,12 @@ padding:200px 0;
     background: linear-gradient(to right,#F15B22, #f15d222e);
 }
 
-.gradient_details h3,a{
+.gradient_details h3{
+    margin:70px 0 0 80px;
+    font-family: 'Work Sans', sans-serif;
+    max-width: 500px;
+}
+.gradient_details a{
     margin:70px 0 0 80px;
     font-family: 'Work Sans', sans-serif;
     max-width: 500px;
@@ -273,4 +278,89 @@ padding:200px 0;
 
 /* ========================
         
+===============================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================
+        footer part start
+===============================*/
+#footer_part{
+    background-color: #151414;
+    padding:120px 0;
+}
+.footer_items{
+    font-family:'Work Sans', sans-serif ;
+    color:#ffffff
+}
+.future_details{
+    width: 500px;
+}
+.future_title h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.future_title p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height:26px ;
+    margin-bottom: 20px;
+    color:#adadad
+}
+
+.future_social ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer_items{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Work Sans', sans-serif ;
+}
+.footer_items h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color:#ffffff
+}
+.subscribe_part input{
+    padding: 15px 25px;
+    background-color: transparent;
+    border: solid 1px #919191;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    color:#ffffff
+
+}
+
+::placeholder{
+    color:#ffffffd6
+}
+
+.footer_btn a{
+    background-color: #ffffff;
+    color:#F15B22;
+    padding:12px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+   
+}
+/* ========================
+        footer part end
 ===============================*/
