@@ -16,7 +16,8 @@ ul{
     list-style-type: none;
 }
 .container{
-    width:1200px;
+    max-width:1200px;
+    width:100%;
     margin: 0 auto;
 }
 /* ========================
@@ -35,19 +36,34 @@ ul{
         Banner part start
 ===============================*/
 
-#header_part{
-background-image: url('../images/banner/banner1.png');
+#header_part .img img{
+width: 100%;
 background-size: cover;
 background-repeat: no-repeat;
 background-position:center;
-padding:200px 0;
 }
 
+.img_text{
+    
+    position: absolute;
+    width: 100%;
+  
+    top: 20%;
+    
+    right: 0;
+
+
+}
 
 .banner_details{
     display: flex;
     justify-content: end;
+    align-items: center;
     text-align: end;
+    /* position:absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%); */
 }
 .banner_doc{
     width:500px;
